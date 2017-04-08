@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/red"
+        android:text="Red"
+        android:textStyle="bold"
+        android:gravity="center"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/orange"
+        android:text="Orange"
+        android:gravity="center"
+
+         />
+    <TextView
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/yellow"
+        android:text="Yellow"
+        android:gravity="center"
+        android:layout_width="match_parent"
+         />
+    <TextView
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/green"
+        android:text="Green"
+        android:gravity="center"
+        android:layout_width="match_parent"
+
+         />
+    <TextView
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/blue"
+        android:text="Blue"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        />
+    <TextView
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/indigo"
+        android:text="Indigo"
+        android:gravity="center"
+        android:layout_width="match_parent"
+
+         />
+    <TextView
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/violet"
+        android:text="Violet"
+        android:gravity="center"
+        android:layout_width="match_parent" />
+</LinearLayout>
